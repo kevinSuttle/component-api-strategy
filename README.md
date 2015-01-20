@@ -8,6 +8,10 @@ Discussions about maintainable component API architectures and style guides.
 Internal/External
 
 ### By role
+These roles may have different needs, and therefore may have different priorities.
+
+That being said, everything that is produced as a result of consuming the style guide will undoubtably be Web-facing, so maybe the specific roles won't need that much attention?
+
 * Designers
 * Marketing pros
 * Devs on your product
@@ -21,21 +25,21 @@ Internal/External
 * semantic markup structure
 * still works without JS
 * offline - network is a layer of enhancement
-* graded UX of components
+* [graded UX of components](http://www.filamentgroup.com/lab/grade-the-components.html)
 * Mobile-first, responsive: device-agnostic
 * Accessibility
 
 #### Contributing
 I would love feedback, discussion, ideas on this. Please open up an [issue](https://github.com/kevinSuttle/component-api-strategy/issues) or [pull request](https://github.com/kevinSuttle/component-api-strategy/pulls)
 ## Ease of Maintainability, Versioning, Distribution
-* Package managers (i.e. NPM)
-* Component API (i.e. Rizzo)
+* Package managers (i.e. npm)
+* Component API (i.e. [Rizzo](http://engineering.lonelyplanet.com/2014/05/18/a-maintainable-styleguide.html))
 * GitHub
 * Do we keep compiled build files in the repo, in a separate repo, or out of SCM altogether?
-* Which build tool do we use? NPM, Gulp, Grunt?
+* Which build tool do we use? [npm](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/), Gulp, Grunt?
 * How does a user update to a newer version?
 * What happens when there is a conflict?
-* Avoiding dependency hell, like this nonsense.
+* Avoiding dependency hell, like [this nonsense](http://foundation.zurb.com/apps/getting-started.html).
 * Asset organization
 * Readable, predictable, speakable URLs
 
