@@ -86,7 +86,7 @@ returns
     "font_variant": "normal",
     "font_weight": "400",
     "foundry": {
-      "name": "Google Android"
+      "name": "Google Android",
       "slug": "google-android",
     },
     "libraries": [
