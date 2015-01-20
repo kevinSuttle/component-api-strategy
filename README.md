@@ -25,6 +25,8 @@ Internal/External
 * Mobile-first, responsive: device-agnostic
 * Accessibility
 
+#### Contributing
+I would love feedback, discussion, ideas on this. Please open up an [issue](https://github.com/kevinSuttle/component-api-strategy/issues) or [pull request](https://github.com/kevinSuttle/component-api-strategy/pulls)
 ## Ease of Maintainability, Versioning, Distribution
 * Package managers (i.e. NPM)
 * Component API (i.e. Rizzo)
