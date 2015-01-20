@@ -49,13 +49,13 @@ Logged-in/non-authorized: which components need to change?
 =====
 ## Alternative API structures
 ### On-demand assembly
-i.e. Google Fonts: `<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>`
+i.e. Google Fonts: `<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>`  
 Not a great example: `<link href='http://style.myapi.com/v1/ui/?components=buttons:login,cancel,submit' rel='stylesheet' type='text/css'>`
 
 ### Custom Objects
 The [Google Font JS solution](https://github.com/typekit/webfontloader#google) involves a JSON object that allows you to do character subsetting. 
 
-Example:
+**Example**
 ```javascript
 WebFontConfig = {
   google: {
@@ -142,7 +142,8 @@ returns
 ```
 
 ## Single point URLs returning component metadata
-Example: `GET http://style.myapi.com/v1/ui/?components=buttons`
+**Example**  
+`GET http://style.myapi.com/v1/ui/?components=buttons`
 Returns:
 ```json
 {
@@ -155,6 +156,5 @@ Returns:
 ```
 *there's probably a smarter way to avoid redundancy in the URLs. Maybe something like [<base>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base)
 which could be implemented server side in a template using `link.assets.css` or something.
-
 
 More to come. Just wanted to get the discussion going.
